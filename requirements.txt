@@ -1,0 +1,25 @@
+# === Backend: Core Python requirements ===
+fastapi
+uvicorn[standard]
+httpx
+pydantic
+python-dotenv
+
+# === Backend: AI / RAG / Model integration ===
+transformers
+sentence-transformers
+faiss-cpu
+numpy
+pandas
+Pillow
+scikit-learn
+
+# === Backend: Utilities ===
+tqdm
+loguru
+
+# === Notes for Frontend (not installed via pip) ===
+# Android Studio (Giraffe+ or newer)
+# Kotlin 1.x
+# Gradle 8.x
+# minSdkVersion / targetSdkVersion as defined in the app module

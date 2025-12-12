@@ -1,0 +1,73 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources>
+    <string name="app_name">HomeRepairBot</string>
+
+    <string name="describe_the_issue_e_g_leaky_faucet">Describe the issue (e.g. leaky faucet)</string>
+    <string name="user_uploaded_photo">User-uploaded photo</string>
+    <string name="get_repair_advice">Get Repair Advice</string>
+    <string name="llm_response_will_appear_here">LLM Response will appear here…</string>
+
+    <string name="take_photo">Take Photo</string>
+    <string name="choose_from_gallery">Choose from Gallery</string>
+    <string name="user_uploaded_the_photo">User-uploaded photo</string>
+
+    <string name="check_api">Check API</string>
+
+    <string name="submitted_text_placeholder">(submitted text will appear here)</string>
+    <string name="response_placeholder">LLM response will appear here…</string>
+    <string name="describe_issue_hint">Describe the issue…</string>
+
+    <string name="img_selected_desc">Selected image preview</string>
+    <string name="img_submitted_desc">Last submitted image</string>
+
+    <string name="select_dialog_prompt">Select a session</string>
+
+    <string name="permission_granted">Permission granted!</string>
+    <string name="permission_denied">Permission denied.</string>
+
+    <string name="healthz_ok">healthz OK: %1$s</string>
+    <string name="healthz_error">healthz error: %1$s</string>
+
+    <string name="submitting_rag">Submitting to RAG engine…</string>
+    <string name="no_results">No results.</string>
+
+    <string name="file_too_large_client_cap">File too large. We cap uploads at ~45 MB. Try a smaller image or let the app compress it.</string>
+
+    <string name="dialog_state_for">Dialog state for %1$s</string>
+    <string name="dialog_state_loaded">Dialog state loaded.</string>
+    <string name="loading_session">Loading session %1$s…</string>
+
+    <string name="safety_ack_title">Safety acknowledgement %1$d / %2$d</string>
+    <string name="safety_ack_continue">Continue with acknowledgement</string>
+    <string name="safety_ack_cancel">Cancel</string>
+    <string name="safety_ack_default">This repair may be hazardous. Proceed only if you understand the risks.</string>
+
+    <string name="working">Working…</string>
+    <string name="clear">Clear</string>
+    <string name="dialog_created_template">New dialog created: %1$s</string>
+
+    <string name="dialog_state_load_error_template">Could not load dialog state: %1$s</string>
+
+    <string name="preview_image">Preview of the suggested reference image</string>
+
+    <string name="fusion_error">Error: %1$s</string>
+    <string name="last_prompt_placeholder">(submitted text will appear here)</string>
+
+    <string name="sending_request_for_dialog">Sending request for %1$s… (waiting for /rag/orchestrator/dialog response)</string>
+
+    <!-- Intent gate: not a home repair task -->
+    <string name="intent_gate_title">Not a home repair task</string>
+    <string name="intent_gate_message_default">
+        This request doesn\'t look like a home repair or improvement task. Please start a new dialog with a home repair issue.
+    </string>
+    <string name="intent_gate_new_task">Start new home repair task</string>
+    <string name="intent_gate_stay_here">Stay in this dialog</string>
+
+    <!-- Emergency gate: hard refusal / 911 messaging -->
+    <string name="emergency_gate_title">Possible emergency detected</string>
+    <string name="emergency_gate_message_default">
+        This might be an emergency. Please evacuate if needed and contact local emergency services immediately. I can\'t safely guide real-time emergencies.
+    </string>
+    <string name="emergency_gate_new_task">Start new task</string>
+
+</resources>

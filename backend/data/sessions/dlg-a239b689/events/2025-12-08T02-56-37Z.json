@@ -1,0 +1,320 @@
+{
+  "timestamp_utc": "2025-12-08T02-56-37Z",
+  "dialog_id": "dlg-a239b689",
+  "query": {
+    "text": "kitchen drain clog",
+    "has_image": false,
+    "caption": null
+  },
+  "notes": {
+    "session_mode": "TOPIC_SHIFT",
+    "topic_intent": {
+      "topic": "plumbing",
+      "intent": "repair",
+      "hazards": [],
+      "keywords": [
+        "clogged",
+        "kitchen",
+        "drain"
+      ],
+      "home_repair": true
+    },
+    "counts": {
+      "query_tokens": 3,
+      "rag_hits": 5,
+      "image_hits": 0,
+      "web_hits": 6,
+      "fused_hits": 11
+    },
+    "timings_ms": {
+      "query_gen": 194,
+      "rag": 777,
+      "image": 0,
+      "web": 551
+    },
+    "queries": [
+      {
+        "source": "rag",
+        "query": "kitchen drain clog"
+      },
+      {
+        "source": "web",
+        "query": "how to unclog kitchen sink drain"
+      }
+    ]
+  },
+  "warnings": [],
+  "counts": {
+    "query_tokens": 3,
+    "rag_hits": 5,
+    "image_hits": 0,
+    "web_hits": 6,
+    "fused_hits": 11
+  },
+  "source_counts": {
+    "image": 0,
+    "text": 5,
+    "web": 6,
+    "total": 11
+  },
+  "timings_ms": {
+    "query_gen": 194,
+    "rag": 777,
+    "image": 0,
+    "web": 551
+  },
+  "answer": null,
+  "evidence": [
+    {
+      "type": "text",
+      "title": "/home/manny-buff/projects/capstone/hw-rag/data/Safe & Sound _ A Renter-Friendly Guide to Home Repair.pdf",
+      "snippet": "en clog, it’s likely a toy, a wad of paper, or something else that’s a recent blockage and chemicals aren’t going to help that anyway. If it was a slow accumulation over time, then it’s likely something farther down the drain or just a slow buildup of sludge and debris. TROUBLESHOOTING: WHAT’S NEXT?If the clog is shallow and nearby, a plunger is a great first place to start. You’ll want a simple s",
+      "thumbnail_url": "/api/v1/rag/pages/get-image?doc=72ba835d5f6cdb85&page=62&w=320",
+      "region_url": null,
+      "citation": {
+        "doc_hash": "72ba835d5f6cdb85",
+        "page_index": 62,
+        "image_file": "/home/manny-buff/projects/vision-rag-api/data/page_images/72ba835d5f6cdb85/page_0063.jpg",
+        "pdf_path": "/home/manny-buff/projects/capstone/hw-rag/data/Safe & Sound _ A Renter-Friendly Guide to Home Repair.pdf",
+        "score": 0.6955793499946594
+      }
+    },
+    {
+      "type": "text",
+      "title": "/home/manny-buff/projects/capstone/hw-rag/data/A Dirty Guide to a Clean Home _ Housekeeping Hacks You Cant Live Without.pdf",
+      "snippet": "There are several reasons why your drain may be clogged. Hair is an obvious one, but it could also just be a buildup of soap scum. You may not know the exact problem until you start to tackle it. I will teach you several ways to unclog a drain, from simple to aggressive. Start using the simplest method and if that unclogs it, great, if not, move on to the next until the problem is resolved. Hot wa",
+      "thumbnail_url": "/api/v1/rag/pages/get-image?doc=87a753a3b4a44bc6&page=123&w=320",
+      "region_url": null,
+      "citation": {
+        "doc_hash": "87a753a3b4a44bc6",
+        "page_index": 123,
+        "image_file": "/home/manny-buff/projects/vision-rag-api/data/page_images/87a753a3b4a44bc6/page_0124.jpg",
+        "pdf_path": "/home/manny-buff/projects/capstone/hw-rag/data/A Dirty Guide to a Clean Home _ Housekeeping Hacks You Cant Live Without.pdf",
+        "score": 0.683513879776001
+      }
+    },
+    {
+      "type": "text",
+      "title": "/home/manny-buff/projects/capstone/hw-rag/data/Safe & Sound _ A Renter-Friendly Guide to Home Repair.pdf",
+      "snippet": "ommon and you aren’t a terrible parent if this happens. Several years ago, when I was working with a great crew of plumbers, we were discussing our largest nightmare finds in plumbing. Mine was pedestrian compared with some of the horrors I heard. But not one of them was upset about hair, toys, or other natural blockages. Their idea of a bad clog included underwear, shoes, and baseball caps being",
+      "thumbnail_url": "/api/v1/rag/pages/get-image?doc=72ba835d5f6cdb85&page=62&w=320",
+      "region_url": null,
+      "citation": {
+        "doc_hash": "72ba835d5f6cdb85",
+        "page_index": 62,
+        "image_file": "/home/manny-buff/projects/vision-rag-api/data/page_images/72ba835d5f6cdb85/page_0063.jpg",
+        "pdf_path": "/home/manny-buff/projects/capstone/hw-rag/data/Safe & Sound _ A Renter-Friendly Guide to Home Repair.pdf",
+        "score": 0.6773450374603271
+      }
+    },
+    {
+      "type": "web",
+      "title": "How to Clean and Unclog a Kitchen Sink Drain (DIY) | Family ...",
+      "url": "https://www.familyhandyman.com/project/how-to-clear-clogged-sink-drains/",
+      "snippet": "Oct 3, 2024 ... Clogged kitchen sink? We will show you how to clear a clogged sink drain using a plunger, a drain snake and a few other household items.",
+      "preview_image_url": null,
+      "thumbnail_url": null,
+      "web_image": null,
+      "sim_to_query_image": null
+    },
+    {
+      "type": "web",
+      "title": "10 Tips For How To Keep Drains From Clogging At Home",
+      "url": "https://www.familyhandyman.com/list/how-to-prevent-clogged-drains/",
+      "snippet": "Feb 22, 2024 ... And because the water flow down the drain is also slowed, clogs in the drain lines can form more easily. When you notice that your bathroom sink ...",
+      "preview_image_url": null,
+      "thumbnail_url": null,
+      "web_image": null,
+      "sim_to_query_image": null
+    },
+    {
+      "type": "web",
+      "title": "How To Unclog a Kitchen Sink | Family Handyman",
+      "url": "https://www.familyhandyman.com/project/unclog-a-kitchen-sink/",
+      "snippet": "Sep 28, 2023 ... Kitchen sink clogs, usually caused by grease or overworked garbage disposers, can be easily removed in minutes with these simple tools and common-sense tips.",
+      "preview_image_url": null,
+      "thumbnail_url": null,
+      "web_image": null,
+      "sim_to_query_image": null
+    },
+    {
+      "type": "text",
+      "title": "/home/manny-buff/projects/capstone/hw-rag/data/Safe & Sound _ A Renter-Friendly Guide to Home Repair.pdf",
+      "snippet": "eat this method again to see if you’re able to further loosen up the clog or move on to the next method. TROUBLESHOOTING: WHAT’S NEXT? If the clog is still shallow, I recommend cleaning out your P-trap. If the clog is farther down the drain pipe, I recommend using a drain snake.",
+      "thumbnail_url": "/api/v1/rag/pages/get-image?doc=72ba835d5f6cdb85&page=63&w=320",
+      "region_url": null,
+      "citation": {
+        "doc_hash": "72ba835d5f6cdb85",
+        "page_index": 63,
+        "image_file": "/home/manny-buff/projects/vision-rag-api/data/page_images/72ba835d5f6cdb85/page_0064.jpg",
+        "pdf_path": "/home/manny-buff/projects/capstone/hw-rag/data/Safe & Sound _ A Renter-Friendly Guide to Home Repair.pdf",
+        "score": 0.658852219581604
+      }
+    },
+    {
+      "type": "text",
+      "title": "/home/manny-buff/projects/capstone/hw-rag/data/Safe & Sound _ A Renter-Friendly Guide to Home Repair.pdf",
+      "snippet": "THE P-TRAP METHOD MATERIALS small bucket or bowl, adjustable pliers, and something to remove the clog with (a flathead screwdriver, scribe, or cleaning brush work well) 1  Remove anything under the sink that could be damaged by water. 2  Place a small bucket or bowl under the P-trap. 3  Use the adjustable pliers to remove both nuts holding up the P-trap. 4  Once the trap is off, look inside and ch",
+      "thumbnail_url": "/api/v1/rag/pages/get-image?doc=72ba835d5f6cdb85&page=64&w=320",
+      "region_url": null,
+      "citation": {
+        "doc_hash": "72ba835d5f6cdb85",
+        "page_index": 64,
+        "image_file": "/home/manny-buff/projects/vision-rag-api/data/page_images/72ba835d5f6cdb85/page_0065.jpg",
+        "pdf_path": "/home/manny-buff/projects/capstone/hw-rag/data/Safe & Sound _ A Renter-Friendly Guide to Home Repair.pdf",
+        "score": 0.6464208960533142
+      }
+    }
+  ],
+  "results": [
+    {
+      "type": "text",
+      "source": "rag",
+      "score": 0.6955793499946594,
+      "pdf_path": "/home/manny-buff/projects/capstone/hw-rag/data/Safe & Sound _ A Renter-Friendly Guide to Home Repair.pdf",
+      "page_from": 62,
+      "page_to": 62,
+      "page_index": 62,
+      "snippet": "en clog, it’s likely a toy, a wad of paper, or something else that’s a recent blockage and chemicals aren’t going to help that anyway. If it was a slow accumulation over time, then it’s likely something farther down the drain or just a slow buildup of sludge and debris. TROUBLESHOOTING: WHAT’S NEXT?If the clog is shallow and nearby, a plunger is a great first place to start. You’ll want a simple s",
+      "raw": {
+        "score": 0.6955793499946594,
+        "file_path": "/home/manny-buff/projects/capstone/hw-rag/data/Safe & Sound _ A Renter-Friendly Guide to Home Repair.pdf",
+        "page_from": 62,
+        "page_to": 62,
+        "snippet": "en clog, it’s likely a toy, a wad of paper, or something else that’s a recent blockage and chemicals aren’t going to help that anyway. If it was a slow accumulation over time, then it’s likely something farther down the drain or just a slow buildup of sludge and debris. TROUBLESHOOTING: WHAT’S NEXT?If the clog is shallow and nearby, a plunger is a great first place to start. You’ll want a simple s"
+      },
+      "thumbnail_url": "/api/v1/rag/pages/get-image?doc=72ba835d5f6cdb85&page=62&w=320",
+      "citation": {
+        "doc_hash": "72ba835d5f6cdb85",
+        "page_index": 62,
+        "image_file": "/home/manny-buff/projects/vision-rag-api/data/page_images/72ba835d5f6cdb85/page_0063.jpg",
+        "pdf_path": "/home/manny-buff/projects/capstone/hw-rag/data/Safe & Sound _ A Renter-Friendly Guide to Home Repair.pdf",
+        "score": 0.6955793499946594
+      }
+    },
+    {
+      "type": "text",
+      "source": "rag",
+      "score": 0.683513879776001,
+      "pdf_path": "/home/manny-buff/projects/capstone/hw-rag/data/A Dirty Guide to a Clean Home _ Housekeeping Hacks You Cant Live Without.pdf",
+      "page_from": 123,
+      "page_to": 123,
+      "page_index": 123,
+      "snippet": "There are several reasons why your drain may be clogged. Hair is an obvious one, but it could also just be a buildup of soap scum. You may not know the exact problem until you start to tackle it. I will teach you several ways to unclog a drain, from simple to aggressive. Start using the simplest method and if that unclogs it, great, if not, move on to the next until the problem is resolved. Hot wa",
+      "raw": {
+        "score": 0.683513879776001,
+        "file_path": "/home/manny-buff/projects/capstone/hw-rag/data/A Dirty Guide to a Clean Home _ Housekeeping Hacks You Cant Live Without.pdf",
+        "page_from": 123,
+        "page_to": 123,
+        "snippet": "There are several reasons why your drain may be clogged. Hair is an obvious one, but it could also just be a buildup of soap scum. You may not know the exact problem until you start to tackle it. I will teach you several ways to unclog a drain, from simple to aggressive. Start using the simplest method and if that unclogs it, great, if not, move on to the next until the problem is resolved. Hot wa"
+      },
+      "thumbnail_url": "/api/v1/rag/pages/get-image?doc=87a753a3b4a44bc6&page=123&w=320",
+      "citation": {
+        "doc_hash": "87a753a3b4a44bc6",
+        "page_index": 123,
+        "image_file": "/home/manny-buff/projects/vision-rag-api/data/page_images/87a753a3b4a44bc6/page_0124.jpg",
+        "pdf_path": "/home/manny-buff/projects/capstone/hw-rag/data/A Dirty Guide to a Clean Home _ Housekeeping Hacks You Cant Live Without.pdf",
+        "score": 0.683513879776001
+      }
+    },
+    {
+      "type": "text",
+      "source": "rag",
+      "score": 0.6773450374603271,
+      "pdf_path": "/home/manny-buff/projects/capstone/hw-rag/data/Safe & Sound _ A Renter-Friendly Guide to Home Repair.pdf",
+      "page_from": 62,
+      "page_to": 62,
+      "page_index": 62,
+      "snippet": "ommon and you aren’t a terrible parent if this happens. Several years ago, when I was working with a great crew of plumbers, we were discussing our largest nightmare finds in plumbing. Mine was pedestrian compared with some of the horrors I heard. But not one of them was upset about hair, toys, or other natural blockages. Their idea of a bad clog included underwear, shoes, and baseball caps being",
+      "raw": {
+        "score": 0.6773450374603271,
+        "file_path": "/home/manny-buff/projects/capstone/hw-rag/data/Safe & Sound _ A Renter-Friendly Guide to Home Repair.pdf",
+        "page_from": 62,
+        "page_to": 62,
+        "snippet": "ommon and you aren’t a terrible parent if this happens. Several years ago, when I was working with a great crew of plumbers, we were discussing our largest nightmare finds in plumbing. Mine was pedestrian compared with some of the horrors I heard. But not one of them was upset about hair, toys, or other natural blockages. Their idea of a bad clog included underwear, shoes, and baseball caps being"
+      },
+      "thumbnail_url": "/api/v1/rag/pages/get-image?doc=72ba835d5f6cdb85&page=62&w=320",
+      "citation": {
+        "doc_hash": "72ba835d5f6cdb85",
+        "page_index": 62,
+        "image_file": "/home/manny-buff/projects/vision-rag-api/data/page_images/72ba835d5f6cdb85/page_0063.jpg",
+        "pdf_path": "/home/manny-buff/projects/capstone/hw-rag/data/Safe & Sound _ A Renter-Friendly Guide to Home Repair.pdf",
+        "score": 0.6773450374603271
+      }
+    },
+    {
+      "type": "text",
+      "source": "rag",
+      "score": 0.658852219581604,
+      "pdf_path": "/home/manny-buff/projects/capstone/hw-rag/data/Safe & Sound _ A Renter-Friendly Guide to Home Repair.pdf",
+      "page_from": 63,
+      "page_to": 63,
+      "page_index": 63,
+      "snippet": "eat this method again to see if you’re able to further loosen up the clog or move on to the next method. TROUBLESHOOTING: WHAT’S NEXT? If the clog is still shallow, I recommend cleaning out your P-trap. If the clog is farther down the drain pipe, I recommend using a drain snake.",
+      "raw": {
+        "score": 0.658852219581604,
+        "file_path": "/home/manny-buff/projects/capstone/hw-rag/data/Safe & Sound _ A Renter-Friendly Guide to Home Repair.pdf",
+        "page_from": 63,
+        "page_to": 63,
+        "snippet": "eat this method again to see if you’re able to further loosen up the clog or move on to the next method. TROUBLESHOOTING: WHAT’S NEXT? If the clog is still shallow, I recommend cleaning out your P-trap. If the clog is farther down the drain pipe, I recommend using a drain snake."
+      },
+      "thumbnail_url": "/api/v1/rag/pages/get-image?doc=72ba835d5f6cdb85&page=63&w=320",
+      "citation": {
+        "doc_hash": "72ba835d5f6cdb85",
+        "page_index": 63,
+        "image_file": "/home/manny-buff/projects/vision-rag-api/data/page_images/72ba835d5f6cdb85/page_0064.jpg",
+        "pdf_path": "/home/manny-buff/projects/capstone/hw-rag/data/Safe & Sound _ A Renter-Friendly Guide to Home Repair.pdf",
+        "score": 0.658852219581604
+      }
+    },
+    {
+      "type": "text",
+      "source": "rag",
+      "score": 0.6464208960533142,
+      "pdf_path": "/home/manny-buff/projects/capstone/hw-rag/data/Safe & Sound _ A Renter-Friendly Guide to Home Repair.pdf",
+      "page_from": 64,
+      "page_to": 64,
+      "page_index": 64,
+      "snippet": "THE P-TRAP METHOD MATERIALS small bucket or bowl, adjustable pliers, and something to remove the clog with (a flathead screwdriver, scribe, or cleaning brush work well) 1  Remove anything under the sink that could be damaged by water. 2  Place a small bucket or bowl under the P-trap. 3  Use the adjustable pliers to remove both nuts holding up the P-trap. 4  Once the trap is off, look inside and ch",
+      "raw": {
+        "score": 0.6464208960533142,
+        "file_path": "/home/manny-buff/projects/capstone/hw-rag/data/Safe & Sound _ A Renter-Friendly Guide to Home Repair.pdf",
+        "page_from": 64,
+        "page_to": 64,
+        "snippet": "THE P-TRAP METHOD MATERIALS small bucket or bowl, adjustable pliers, and something to remove the clog with (a flathead screwdriver, scribe, or cleaning brush work well) 1  Remove anything under the sink that could be damaged by water. 2  Place a small bucket or bowl under the P-trap. 3  Use the adjustable pliers to remove both nuts holding up the P-trap. 4  Once the trap is off, look inside and ch"
+      },
+      "thumbnail_url": "/api/v1/rag/pages/get-image?doc=72ba835d5f6cdb85&page=64&w=320",
+      "citation": {
+        "doc_hash": "72ba835d5f6cdb85",
+        "page_index": 64,
+        "image_file": "/home/manny-buff/projects/vision-rag-api/data/page_images/72ba835d5f6cdb85/page_0065.jpg",
+        "pdf_path": "/home/manny-buff/projects/capstone/hw-rag/data/Safe & Sound _ A Renter-Friendly Guide to Home Repair.pdf",
+        "score": 0.6464208960533142
+      }
+    },
+    {
+      "title": "How to Clean and Unclog a Kitchen Sink Drain (DIY) | Family ...",
+      "url": "https://www.familyhandyman.com/project/how-to-clear-clogged-sink-drains/",
+      "snippet": "Oct 3, 2024 ... Clogged kitchen sink? We will show you how to clear a clogged sink drain using a plunger, a drain snake and a few other household items.",
+      "score": 0.0,
+      "type": "web"
+    },
+    {
+      "title": "10 Tips For How To Keep Drains From Clogging At Home",
+      "url": "https://www.familyhandyman.com/list/how-to-prevent-clogged-drains/",
+      "snippet": "Feb 22, 2024 ... And because the water flow down the drain is also slowed, clogs in the drain lines can form more easily. When you notice that your bathroom sink ...",
+      "score": 0.0,
+      "type": "web"
+    },
+    {
+      "title": "How To Unclog a Kitchen Sink | Family Handyman",
+      "url": "https://www.familyhandyman.com/project/unclog-a-kitchen-sink/",
+      "snippet": "Sep 28, 2023 ... Kitchen sink clogs, usually caused by grease or overworked garbage disposers, can be easily removed in minutes with these simple tools and common-sense tips.",
+      "score": 0.0,
+      "type": "web"
+    }
+  ],
+  "blocked": false,
+  "requires_ack": false,
+  "ack_stage": 0
+}

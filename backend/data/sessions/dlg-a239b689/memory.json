@@ -1,0 +1,55 @@
+{
+  "dialog_id": "dlg-a239b689",
+  "updated_at": "2025-12-08T02:59:20Z",
+  "last_ack_stage": null,
+  "hazards_seen": [],
+  "key_points": [
+    "system\nYou are a careful, practical home-repair assistant.\nThe current topic is: plumbing.\nYou are in the middle of a multi-step repair. The goal is to guide the user\nthrough the repair one safe, concrete step at a time.\n\nYou must now decide the NEXT step (or clarify what the user should do now),\nbased on the project summary, prior turns, and the user's new message.\n\nRules:\n- Assume previous steps"
+  ],
+  "summary": "The latest query was “drain snake”.",
+  "active_project": {
+    "project_id": "proj-1",
+    "topic": "plumbing",
+    "issue": "kitchen drain clog",
+    "first_query": "kitchen drain clog",
+    "created_at": "2025-12-08T02-56-37Z",
+    "last_event_ts": "2025-12-08T02-59-15Z",
+    "summary": "",
+    "topic_intent": {
+      "topic": "plumbing",
+      "intent": "repair",
+      "hazards": [],
+      "keywords": [
+        "drain snake",
+        "unclog",
+        "plumbing"
+      ],
+      "home_repair": true
+    }
+  },
+  "projects": [
+    {
+      "project_id": "proj-1",
+      "topic": "plumbing",
+      "issue": "kitchen drain clog",
+      "first_query": "kitchen drain clog",
+      "created_at": "2025-12-08T02-56-37Z",
+      "last_event_ts": "2025-12-08T02-59-15Z",
+      "summary": "",
+      "topic_intent": {
+        "topic": "plumbing",
+        "intent": "repair",
+        "hazards": [],
+        "keywords": [
+          "drain snake",
+          "unclog",
+          "plumbing"
+        ],
+        "home_repair": true
+      }
+    }
+  ],
+  "source": {
+    "recent_events_used": 5
+  }
+}

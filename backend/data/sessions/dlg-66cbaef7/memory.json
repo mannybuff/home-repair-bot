@@ -1,0 +1,59 @@
+{
+  "dialog_id": "dlg-66cbaef7",
+  "updated_at": "2025-12-08T03:18:26Z",
+  "last_ack_stage": null,
+  "hazards_seen": [],
+  "key_points": [
+    "Turn on the water supply and check for leaks.\n\nFollow-up question: Are there any visible signs of a leak?"
+  ],
+  "summary": "The latest query was “leaky kitchen faucet”.",
+  "active_project": {
+    "project_id": "proj-1",
+    "topic": "plumbing",
+    "issue": "kitchen faucet leak",
+    "first_query": "kitchen faucet leak",
+    "created_at": "2025-12-08T03-16-29Z",
+    "last_event_ts": "2025-12-08T03-18-21Z",
+    "summary": "",
+    "topic_intent": {
+      "topic": "plumbing",
+      "intent": "repair",
+      "hazards": [
+        "gas_leak"
+      ],
+      "keywords": [
+        "leak",
+        "handle",
+        "plumbing"
+      ],
+      "home_repair": true
+    }
+  },
+  "projects": [
+    {
+      "project_id": "proj-1",
+      "topic": "plumbing",
+      "issue": "kitchen faucet leak",
+      "first_query": "kitchen faucet leak",
+      "created_at": "2025-12-08T03-16-29Z",
+      "last_event_ts": "2025-12-08T03-18-21Z",
+      "summary": "",
+      "topic_intent": {
+        "topic": "plumbing",
+        "intent": "repair",
+        "hazards": [
+          "gas_leak"
+        ],
+        "keywords": [
+          "leak",
+          "handle",
+          "plumbing"
+        ],
+        "home_repair": true
+      }
+    }
+  ],
+  "source": {
+    "recent_events_used": 5
+  }
+}

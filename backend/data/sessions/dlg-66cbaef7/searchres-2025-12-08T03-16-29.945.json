@@ -1,0 +1,194 @@
+{
+  "schema_version": "v1.1",
+  "dialog_id": "dlg-66cbaef7",
+  "created_at": "2025-12-08T03:16:29Z",
+  "source_event": "latest.json",
+  "query": {
+    "text": "kitchen faucet leak",
+    "caption": null,
+    "has_image": false
+  },
+  "counts": {
+    "results_total": 8,
+    "text": 5,
+    "web": 3,
+    "image": 0
+  },
+  "longform": {
+    "text": [
+      {
+        "type": "text",
+        "source": "rag",
+        "score": 0.6390568017959595,
+        "pdf_path": "/home/manny-buff/projects/capstone/hw-rag/data/Complete home repair  with 350 projects and 2300 photos.pdf",
+        "page_from": 321,
+        "page_to": 321,
+        "page_index": 321,
+        "snippet": "Faucets A leaky faucet is the most common home  plumbing problem. Most faucet problems are  easy to fix, and you can save time and money  by fixing them yourself. Leaks generally occur  when washers, O-rings, or seals inside the  faucet become dirty or worn. Fixing most  leaks is a matter of cleaning or replacing one  of these parts.  It’s important to fix a leak as soon as pos¬  sible. Although t",
+        "raw": {
+          "score": 0.6390568017959595,
+          "file_path": "/home/manny-buff/projects/capstone/hw-rag/data/Complete home repair  with 350 projects and 2300 photos.pdf",
+          "page_from": 321,
+          "page_to": 321,
+          "snippet": "Faucets A leaky faucet is the most common home  plumbing problem. Most faucet problems are  easy to fix, and you can save time and money  by fixing them yourself. Leaks generally occur  when washers, O-rings, or seals inside the  faucet become dirty or worn. Fixing most  leaks is a matter of cleaning or replacing one  of these parts.  It’s important to fix a leak as soon as pos¬  sible. Although t"
+        },
+        "thumbnail_url": "/api/v1/rag/pages/get-image?doc=d9079cbdeb5bb6dd&page=321&w=320",
+        "citation": {
+          "doc_hash": "d9079cbdeb5bb6dd",
+          "page_index": 321,
+          "image_file": "/home/manny-buff/projects/vision-rag-api/data/page_images/d9079cbdeb5bb6dd/page_0322.jpg",
+          "pdf_path": "/home/manny-buff/projects/capstone/hw-rag/data/Complete home repair  with 350 projects and 2300 photos.pdf",
+          "score": 0.6390568017959595
+        }
+      },
+      {
+        "type": "text",
+        "source": "rag",
+        "score": 0.618414044380188,
+        "pdf_path": "/home/manny-buff/projects/capstone/hw-rag/data/Complete home repair  with 350 projects and 2300 photos.pdf",
+        "page_from": 323,
+        "page_to": 323,
+        "page_index": 323,
+        "snippet": "Faucets  Ball Faucets  Ball faucets have a single handle and can be  identified by a hollow metal or plastic ball  inside the faucet body. This rotating ball con¬  trols the temperature and flow of water into  the faucet. Many ball-type faucets have a  rounded cap with knurled edges located under  the handle.  If a faucet with this type of cap leaks from  the spout, try tightening the cap with cha",
+        "raw": {
+          "score": 0.618414044380188,
+          "file_path": "/home/manny-buff/projects/capstone/hw-rag/data/Complete home repair  with 350 projects and 2300 photos.pdf",
+          "page_from": 323,
+          "page_to": 323,
+          "snippet": "Faucets  Ball Faucets  Ball faucets have a single handle and can be  identified by a hollow metal or plastic ball  inside the faucet body. This rotating ball con¬  trols the temperature and flow of water into  the faucet. Many ball-type faucets have a  rounded cap with knurled edges located under  the handle.  If a faucet with this type of cap leaks from  the spout, try tightening the cap with cha"
+        },
+        "thumbnail_url": "/api/v1/rag/pages/get-image?doc=d9079cbdeb5bb6dd&page=323&w=320",
+        "citation": {
+          "doc_hash": "d9079cbdeb5bb6dd",
+          "page_index": 323,
+          "image_file": "/home/manny-buff/projects/vision-rag-api/data/page_images/d9079cbdeb5bb6dd/page_0324.jpg",
+          "pdf_path": "/home/manny-buff/projects/capstone/hw-rag/data/Complete home repair  with 350 projects and 2300 photos.pdf",
+          "score": 0.618414044380188
+        }
+      },
+      {
+        "type": "text",
+        "source": "rag",
+        "score": 0.5784894227981567,
+        "pdf_path": "/home/manny-buff/projects/capstone/hw-rag/data/1001 do-it-yourself hints & tips  tricks.pdf",
+        "page_from": 164,
+        "page_to": 164,
+        "page_index": 164,
+        "snippet": "nd  test  the  faucet.  This  simple  fix  usually  cures  the  leak.  Cleaning  a  faucet  aerator  WHAT  YOU'LL  NEED  Groove-joint  pliers  wrapped  with  tape  (if  needed)  Old  toothbrush  vinegar  Phillips  screwdriver  Replacement  parts  as  needed  ILow   water  pressure  at  a kitchen  spout  can  often  be  reme- died by  removing  the  aerator  and  cleaning  it.  Unscrew  the  aerato",
+        "raw": {
+          "score": 0.5784894227981567,
+          "file_path": "/home/manny-buff/projects/capstone/hw-rag/data/1001 do-it-yourself hints & tips  tricks.pdf",
+          "page_from": 164,
+          "page_to": 164,
+          "snippet": "nd  test  the  faucet.  This  simple  fix  usually  cures  the  leak.  Cleaning  a  faucet  aerator  WHAT  YOU'LL  NEED  Groove-joint  pliers  wrapped  with  tape  (if  needed)  Old  toothbrush  vinegar  Phillips  screwdriver  Replacement  parts  as  needed  ILow   water  pressure  at  a kitchen  spout  can  often  be  reme- died by  removing  the  aerator  and  cleaning  it.  Unscrew  the  aerato"
+        },
+        "thumbnail_url": "/api/v1/rag/pages/get-image?doc=d1755d662b062943&page=164&w=320",
+        "citation": {
+          "doc_hash": "d1755d662b062943",
+          "page_index": 164,
+          "image_file": "/home/manny-buff/projects/vision-rag-api/data/page_images/d1755d662b062943/page_0165.jpg",
+          "pdf_path": "/home/manny-buff/projects/capstone/hw-rag/data/1001 do-it-yourself hints & tips  tricks.pdf",
+          "score": 0.5784894227981567
+        }
+      }
+    ],
+    "web": [
+      {
+        "title": "How to Fix a Leaky Faucet (DIY) | Family Handyman",
+        "url": "https://www.familyhandyman.com/project/how-to-repair-a-kitchen-faucet/",
+        "snippet": "Oct 3, 2024 ... You can fix almost any drippy single-lever kitchen faucet in about an hour. We'll show you Moen faucet repair as well as others.",
+        "score": 0.0,
+        "type": "web"
+      },
+      {
+        "title": "How to Replace a Kitchen Faucet - Family Handyman",
+        "url": "https://www.familyhandyman.com/project/how-to-replace-a-kitchen-faucet/",
+        "snippet": "Jun 25, 2024 ... Close the valve, turn on the main water valve and check for leaks. Place a bucket under the faucet and turn the faucet on to check for leaks.",
+        "score": 0.0,
+        "type": "web"
+      },
+      {
+        "title": "Stop That Annoying Kitchen Faucet Drip for Good (DIY) | Family ...",
+        "url": "https://www.familyhandyman.com/project/stop-that-annoying-kitchen-faucet-drip-for-good/",
+        "snippet": "Jun 20, 2025 ... If you have a leaking faucet, it is usually due to worn-out parts inside the faucet, such as the rubber O-rings, washers, or cartridges that control the water ...",
+        "score": 0.0,
+        "type": "web"
+      }
+    ],
+    "image": []
+  },
+  "evidence_refs": [
+    {
+      "type": "text",
+      "title": "/home/manny-buff/projects/capstone/hw-rag/data/Complete home repair  with 350 projects and 2300 photos.pdf",
+      "snippet": "Faucets A leaky faucet is the most common home  plumbing problem. Most faucet problems are  easy to fix, and you can save time and money  by fixing them yourself. Leaks generally occur  when washers, O-rings, or seals inside the  faucet become dirty or worn. Fixing most  leaks is a matter of cleaning or replacing one  of these parts.  It’s important to fix a leak as soon as pos¬  sible. Although t",
+      "thumbnail_url": "/api/v1/rag/pages/get-image?doc=d9079cbdeb5bb6dd&page=321&w=320",
+      "region_url": null,
+      "citation": {
+        "doc_hash": "d9079cbdeb5bb6dd",
+        "page_index": 321,
+        "image_file": "/home/manny-buff/projects/vision-rag-api/data/page_images/d9079cbdeb5bb6dd/page_0322.jpg",
+        "pdf_path": "/home/manny-buff/projects/capstone/hw-rag/data/Complete home repair  with 350 projects and 2300 photos.pdf",
+        "score": 0.6390568017959595
+      }
+    },
+    {
+      "type": "text",
+      "title": "/home/manny-buff/projects/capstone/hw-rag/data/Complete home repair  with 350 projects and 2300 photos.pdf",
+      "snippet": "Faucets  Ball Faucets  Ball faucets have a single handle and can be  identified by a hollow metal or plastic ball  inside the faucet body. This rotating ball con¬  trols the temperature and flow of water into  the faucet. Many ball-type faucets have a  rounded cap with knurled edges located under  the handle.  If a faucet with this type of cap leaks from  the spout, try tightening the cap with cha",
+      "thumbnail_url": "/api/v1/rag/pages/get-image?doc=d9079cbdeb5bb6dd&page=323&w=320",
+      "region_url": null,
+      "citation": {
+        "doc_hash": "d9079cbdeb5bb6dd",
+        "page_index": 323,
+        "image_file": "/home/manny-buff/projects/vision-rag-api/data/page_images/d9079cbdeb5bb6dd/page_0324.jpg",
+        "pdf_path": "/home/manny-buff/projects/capstone/hw-rag/data/Complete home repair  with 350 projects and 2300 photos.pdf",
+        "score": 0.618414044380188
+      }
+    },
+    {
+      "type": "text",
+      "title": "/home/manny-buff/projects/capstone/hw-rag/data/1001 do-it-yourself hints & tips  tricks.pdf",
+      "snippet": "nd  test  the  faucet.  This  simple  fix  usually  cures  the  leak.  Cleaning  a  faucet  aerator  WHAT  YOU'LL  NEED  Groove-joint  pliers  wrapped  with  tape  (if  needed)  Old  toothbrush  vinegar  Phillips  screwdriver  Replacement  parts  as  needed  ILow   water  pressure  at  a kitchen  spout  can  often  be  reme- died by  removing  the  aerator  and  cleaning  it.  Unscrew  the  aerato",
+      "thumbnail_url": "/api/v1/rag/pages/get-image?doc=d1755d662b062943&page=164&w=320",
+      "region_url": null,
+      "citation": {
+        "doc_hash": "d1755d662b062943",
+        "page_index": 164,
+        "image_file": "/home/manny-buff/projects/vision-rag-api/data/page_images/d1755d662b062943/page_0165.jpg",
+        "pdf_path": "/home/manny-buff/projects/capstone/hw-rag/data/1001 do-it-yourself hints & tips  tricks.pdf",
+        "score": 0.5784894227981567
+      }
+    },
+    {
+      "type": "web",
+      "title": "How to Fix a Leaky Faucet (DIY) | Family Handyman",
+      "url": "https://www.familyhandyman.com/project/how-to-repair-a-kitchen-faucet/",
+      "snippet": "Oct 3, 2024 ... You can fix almost any drippy single-lever kitchen faucet in about an hour. We'll show you Moen faucet repair as well as others.",
+      "preview_image_url": null,
+      "thumbnail_url": null,
+      "web_image": null,
+      "sim_to_query_image": null
+    },
+    {
+      "type": "web",
+      "title": "How to Replace a Kitchen Faucet - Family Handyman",
+      "url": "https://www.familyhandyman.com/project/how-to-replace-a-kitchen-faucet/",
+      "snippet": "Jun 25, 2024 ... Close the valve, turn on the main water valve and check for leaks. Place a bucket under the faucet and turn the faucet on to check for leaks.",
+      "preview_image_url": null,
+      "thumbnail_url": null,
+      "web_image": null,
+      "sim_to_query_image": null
+    },
+    {
+      "type": "web",
+      "title": "Stop That Annoying Kitchen Faucet Drip for Good (DIY) | Family ...",
+      "url": "https://www.familyhandyman.com/project/stop-that-annoying-kitchen-faucet-drip-for-good/",
+      "snippet": "Jun 20, 2025 ... If you have a leaking faucet, it is usually due to worn-out parts inside the faucet, such as the rubber O-rings, washers, or cartridges that control the water ...",
+      "preview_image_url": null,
+      "thumbnail_url": null,
+      "web_image": null,
+      "sim_to_query_image": null
+    }
+  ]
+}

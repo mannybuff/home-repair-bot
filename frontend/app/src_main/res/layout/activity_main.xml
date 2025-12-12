@@ -1,0 +1,213 @@
+<?xml version="1.0" encoding="utf-8"?>
+<androidx.constraintlayout.widget.ConstraintLayout
+    xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:padding="16dp"
+    tools:context=".MainActivity">
+
+    <!-- 1) TOP BAR: dialog selector + Check API -->
+    <LinearLayout
+        android:id="@+id/top_bar"
+        android:layout_width="0dp"
+        android:layout_height="wrap_content"
+        android:orientation="horizontal"
+        android:padding="12dp"
+        app:layout_constraintTop_toTopOf="parent"
+        app:layout_constraintStart_toStartOf="parent"
+        app:layout_constraintEnd_toEndOf="parent">
+
+        <Spinner
+            android:id="@+id/spinner_dialogs"
+            android:layout_width="0dp"
+            android:layout_height="wrap_content"
+            android:layout_weight="1"
+            android:minHeight="48dp"
+            android:prompt="@string/select_dialog_prompt"
+            android:spinnerMode="dropdown" />
+
+        <Button
+            android:id="@+id/button_check_api"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:text="@string/check_api"
+            android:layout_marginStart="12dp"
+            android:minHeight="48dp"
+            android:minWidth="64dp"
+            android:paddingHorizontal="16dp"
+            android:paddingVertical="10dp" />
+
+        <Button
+            android:id="@+id/button_clear"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:text="@string/clear" />
+
+    </LinearLayout>
+
+    <!-- 2) OUTPUT CARD -->
+    <androidx.cardview.widget.CardView
+        android:id="@+id/card_output"
+        android:layout_width="0dp"
+        android:layout_height="0dp"
+        android:layout_marginTop="12dp"
+        app:layout_constraintTop_toBottomOf="@id/top_bar"
+        app:layout_constraintStart_toStartOf="parent"
+        app:layout_constraintEnd_toEndOf="parent"
+        app:layout_constraintBottom_toTopOf="@id/input_description_layout"
+        app:cardUseCompatPadding="true"
+        app:cardBackgroundColor="@color/dim_foreground">
+
+        <!-- Everything inside the card scrolls together -->
+        <ScrollView
+            android:id="@+id/scroll_response"
+            android:layout_width="match_parent"
+            android:layout_height="match_parent"
+            android:fillViewport="true">
+
+            <!-- Static header + debug + dynamic conversation bubbles -->
+            <LinearLayout
+                android:id="@+id/scroll_content"
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:orientation="vertical"
+                android:padding="12dp">
+
+                <!-- Last prompt line -->
+                <TextView
+                    android:id="@+id/text_last_prompt"
+                    android:layout_width="match_parent"
+                    android:layout_height="wrap_content"
+                    android:textStyle="bold"
+                    android:text="@string/last_prompt_placeholder"
+                    android:paddingBottom="6dp"
+                    android:textIsSelectable="true" />
+
+                <!-- Legacy log / debug area -->
+                <TextView
+                    android:id="@+id/text_view_response"
+                    android:layout_width="match_parent"
+                    android:layout_height="wrap_content"
+                    android:paddingBottom="6dp"
+                    android:textIsSelectable="true" />
+
+                <!-- Assistant “best match” preview image -->
+                <ImageView
+                    android:id="@+id/bestPreview"
+                    android:layout_width="match_parent"
+                    android:layout_height="wrap_content"
+                    android:adjustViewBounds="true"
+                    android:visibility="gone"
+                    android:contentDescription="@string/preview_image" />
+
+                <!-- Dynamic conversation bubbles (user + assistant text/images) -->
+                <LinearLayout
+                    android:id="@+id/conversation_container"
+                    android:layout_width="match_parent"
+                    android:layout_height="wrap_content"
+                    android:orientation="vertical"
+                    android:paddingTop="8dp" />
+
+            </LinearLayout>
+        </ScrollView>
+    </androidx.cardview.widget.CardView>
+
+
+    <!-- 3) INPUT TEXT -->
+    <com.google.android.material.textfield.TextInputLayout
+        android:id="@+id/input_description_layout"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:layout_marginStart="20dp"
+        android:layout_marginEnd="20dp"
+        android:layout_marginTop="12dp"
+        app:layout_constraintTop_toBottomOf="@id/card_output"
+        app:layout_constraintStart_toStartOf="parent"
+        app:layout_constraintEnd_toEndOf="parent"
+        style="@style/Widget.MaterialComponents.TextInputLayout.OutlinedBox"
+        app:boxStrokeWidth="1dp"
+        app:boxCornerRadiusTopStart="12dp"
+        app:boxCornerRadiusTopEnd="12dp"
+        app:boxCornerRadiusBottomStart="12dp"
+        app:boxCornerRadiusBottomEnd="12dp">
+
+        <com.google.android.material.textfield.TextInputEditText
+            android:id="@+id/input_description"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:hint="@string/describe_issue_hint"
+            android:inputType="textCapSentences|textMultiLine"
+            android:maxLines="5"
+            android:minLines="3"
+            android:imeOptions="actionSend"
+            android:padding="12dp"
+            android:textSize="16sp" />
+    </com.google.android.material.textfield.TextInputLayout>
+
+    <!-- 4) IMAGE ACTION BUTTONS -->
+    <LinearLayout
+        android:id="@+id/layout_image_buttons"
+        style="?android:attr/buttonBarStyle"
+        android:layout_width="0dp"
+        android:layout_height="wrap_content"
+        android:orientation="horizontal"
+        android:gravity="center"
+        android:padding="12dp"
+        app:layout_constraintTop_toBottomOf="@id/input_description_layout"
+        app:layout_constraintStart_toStartOf="parent"
+        app:layout_constraintEnd_toEndOf="parent">
+
+        <Button
+            android:id="@+id/button_camera"
+            style="?android:attr/buttonBarButtonStyle"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:text="@string/take_photo"  />
+
+        <Button
+            android:id="@+id/button_gallery"
+            style="?android:attr/buttonBarButtonStyle"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:text="@string/choose_from_gallery"
+            android:layout_marginStart="12dp" />
+    </LinearLayout>
+
+    <!-- 5) IMAGE PREVIEW -->
+    <ImageView
+        android:id="@+id/image_view_photo"
+        android:layout_width="0dp"
+        android:layout_height="200dp"
+        android:layout_marginStart="12dp"
+        android:layout_marginEnd="12dp"
+        android:scaleType="centerCrop"
+        android:adjustViewBounds="true"
+        android:contentDescription="@string/img_selected_desc"
+        app:layout_constraintTop_toBottomOf="@id/layout_image_buttons"
+        app:layout_constraintStart_toStartOf="parent"
+        app:layout_constraintEnd_toEndOf="parent" />
+
+    <!-- 6) SEND BUTTON -->
+    <com.google.android.material.button.MaterialButton
+        android:id="@+id/button_send"
+        android:layout_width="match_parent"
+        android:layout_height="56dp"
+        android:layout_marginStart="20dp"
+        android:layout_marginEnd="20dp"
+        android:layout_marginBottom="16dp"
+        android:text="@string/get_repair_advice"
+        android:textAllCaps="false"
+        android:textSize="16sp"
+        android:layout_marginTop="12dp"
+        app:layout_constraintTop_toBottomOf="@id/image_view_photo"
+        app:layout_constraintStart_toStartOf="parent"
+        app:layout_constraintEnd_toEndOf="parent"
+        app:layout_constraintBottom_toBottomOf="parent"
+        app:cornerRadius="28dp"
+        app:iconGravity="textStart"
+        app:iconPadding="8dp" />
+
+
+</androidx.constraintlayout.widget.ConstraintLayout>

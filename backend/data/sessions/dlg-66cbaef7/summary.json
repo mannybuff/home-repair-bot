@@ -1,0 +1,82 @@
+{
+  "dialog_id": "dlg-66cbaef7",
+  "topic": "plumbing",
+  "image_caption": null,
+  "text": "Repair Guide for Leaky Faucet\n\nStep 1: Preparation\n- Turn off the water supply to the faucet. Use a wrench to loosen the handle and remove it.\n- Clean the faucet body and spout with a rag and vinegar. Rinse with water and dry with a towel.\n- Check for any debris or buildup in the faucet body or spout.\n- If the leak is coming from the handle, remove the handle and check for any loose parts or worn O-rings.\n- If the leak is coming from the spout, remove the spout and check for any loose parts or worn O-rings.\n\nStep 2: Cleaning and Replacing Parts\n- Clean the faucet body and spout with a rag and vinegar. Rinse with water and dry with a towel.\n- Check for any debris or buildup in the faucet body or spout.\n- If the leak is coming from the handle, remove the handle and check for any loose parts or worn O-rings.\n- If the leak is coming from the spout, remove the spout and check for any loose parts or worn O-rings.\n- If the leak is coming from the O-rings, replace them with new ones.\n- If the leak is coming from the handle, replace the handle with a new one.\n- If the leak is coming from the spout, replace the spout with a new one.\n\nStep 3: Reinstalling the Faucet\n- Reinstall the faucet handle and spout.\n- Tighten the handle and spout with a wrench.\n- Turn on the water supply to the faucet.\n- Check for any leaks or drips.\n\nStep 4: Final Checks\n- Check the water pressure at the kitchen spout.\n- Check for any leaks or drips.\n- If the leak is still present, repeat the cleaning and replacement steps.\n- If the leak is still present, replace the faucet with a new one.\n\nStep 5: Conclusion\n- Make sure the faucet is securely installed and the water pressure is adequate.\n- Check for any leaks or drips.\n- If the leak is still present, repeat the cleaning and replacement steps.\n- If the leak is still present, replace the faucet with a new one.\n- Turn on the water supply to the faucet.\n- Check for any leaks or drips.\n- If the leak is still present, repeat the cleaning and replacement steps.\n- If the leak is still present, replace the faucet with a new one.\n- Turn on the water supply to the",
+  "evidence_refs": [
+    {
+      "type": "text",
+      "title": "/home/manny-buff/projects/capstone/hw-rag/data/Complete home repair  with 350 projects and 2300 photos.pdf",
+      "snippet": "Faucets A leaky faucet is the most common home  plumbing problem. Most faucet problems are  easy to fix, and you can save time and money  by fixing them yourself. Leaks generally occur  when washers, O-rings, or seals inside the  faucet become dirty or worn. Fixing most  leaks is a matter of cleaning or replacing one  of these parts.  It\u2019s important to fix a leak as soon as pos\u00ac  sible. Although t",
+      "thumbnail_url": "/api/v1/rag/pages/get-image?doc=d9079cbdeb5bb6dd&page=321&w=320",
+      "region_url": null,
+      "citation": {
+        "doc_hash": "d9079cbdeb5bb6dd",
+        "page_index": 321,
+        "image_file": "/home/manny-buff/projects/vision-rag-api/data/page_images/d9079cbdeb5bb6dd/page_0322.jpg",
+        "pdf_path": "/home/manny-buff/projects/capstone/hw-rag/data/Complete home repair  with 350 projects and 2300 photos.pdf",
+        "score": 0.6424721479415894
+      }
+    },
+    {
+      "type": "text",
+      "title": "/home/manny-buff/projects/capstone/hw-rag/data/Complete home repair  with 350 projects and 2300 photos.pdf",
+      "snippet": "Faucets  Ball Faucets  Ball faucets have a single handle and can be  identified by a hollow metal or plastic ball  inside the faucet body. This rotating ball con\u00ac  trols the temperature and flow of water into  the faucet. Many ball-type faucets have a  rounded cap with knurled edges located under  the handle.  If a faucet with this type of cap leaks from  the spout, try tightening the cap with cha",
+      "thumbnail_url": "/api/v1/rag/pages/get-image?doc=d9079cbdeb5bb6dd&page=323&w=320",
+      "region_url": null,
+      "citation": {
+        "doc_hash": "d9079cbdeb5bb6dd",
+        "page_index": 323,
+        "image_file": "/home/manny-buff/projects/vision-rag-api/data/page_images/d9079cbdeb5bb6dd/page_0324.jpg",
+        "pdf_path": "/home/manny-buff/projects/capstone/hw-rag/data/Complete home repair  with 350 projects and 2300 photos.pdf",
+        "score": 0.6056129336357117
+      }
+    },
+    {
+      "type": "text",
+      "title": "/home/manny-buff/projects/capstone/hw-rag/data/1001 do-it-yourself hints & tips  tricks.pdf",
+      "snippet": "nd  test  the  faucet.  This  simple  fix  usually  cures  the  leak.  Cleaning  a  faucet  aerator  WHAT  YOU'LL  NEED  Groove-joint  pliers  wrapped  with  tape  (if  needed)  Old  toothbrush  vinegar  Phillips  screwdriver  Replacement  parts  as  needed  ILow   water  pressure  at  a kitchen  spout  can  often  be  reme- died by  removing  the  aerator  and  cleaning  it.  Unscrew  the  aerato",
+      "thumbnail_url": "/api/v1/rag/pages/get-image?doc=d1755d662b062943&page=164&w=320",
+      "region_url": null,
+      "citation": {
+        "doc_hash": "d1755d662b062943",
+        "page_index": 164,
+        "image_file": "/home/manny-buff/projects/vision-rag-api/data/page_images/d1755d662b062943/page_0165.jpg",
+        "pdf_path": "/home/manny-buff/projects/capstone/hw-rag/data/1001 do-it-yourself hints & tips  tricks.pdf",
+        "score": 0.6054606437683105
+      }
+    },
+    {
+      "type": "web",
+      "title": "How to Fix a Leaky Faucet (DIY) | Family Handyman",
+      "url": "https://www.familyhandyman.com/project/how-to-repair-a-kitchen-faucet/",
+      "snippet": "Oct 3, 2024 ... You can fix almost any drippy single-lever kitchen faucet in about an hour. We'll show you Moen faucet repair as well as others.",
+      "preview_image_url": null,
+      "thumbnail_url": null,
+      "web_image": null,
+      "sim_to_query_image": null
+    },
+    {
+      "type": "web",
+      "title": "Stop That Annoying Kitchen Faucet Drip for Good (DIY) | Family ...",
+      "url": "https://www.familyhandyman.com/project/stop-that-annoying-kitchen-faucet-drip-for-good/",
+      "snippet": "Jun 20, 2025 ... Save hundreds on plumber fees by following these straightforward steps on how to fix a leaky faucet yourself.",
+      "preview_image_url": null,
+      "thumbnail_url": null,
+      "web_image": null,
+      "sim_to_query_image": null
+    },
+    {
+      "type": "web",
+      "title": "How to Fix a Sink Sprayer Leaking In the Kitchen: A Full Guide",
+      "url": "https://www.familyhandyman.com/project/how-to-fix-a-leaking-sink-sprayer/",
+      "snippet": "Jul 25, 2024 ... Kitchen Faucet Spray Head Replacement. If you find mysterious puddles under your kitchen sink, the most likely suspects are the water supply\u00a0...",
+      "preview_image_url": null,
+      "thumbnail_url": null,
+      "web_image": null,
+      "sim_to_query_image": null
+    }
+  ],
+  "_source": "summary_longform_v2",
+  "_raw": "system\nYou are HomeRepairBot, an AI assistant that creates clear, detailed step-by-step home repair guides.\n\nYou will receive:\n- a short description of the user's problem\n- the repair topic (such as plumbing, drywall, electrical, etc.)\n- several evidence passages taken from manuals and trustworthy web articles about ONE type of project\n\nYour task is to write ONE self-contained repair guide the user can follow from start to finish using the provided material.\nUse roughly 200 \u2013 450 words in total.\n\nOutput requirements:\n- Write in plain, friendly, professional language.\n- First, write a very detailed between one paragraph to five paragraph description of the repair in plain text from start to finish (no heading).\n- It\u2019s good to be very descriptive. Give individual, specific, thoroughly detailed steps that cover the repair from start to finish. Do NOT write multiple distinct steps into any single step. Do keep all steps separate.\n- Write a sequence of numbered steps, using the format:\n    Step 1: ...\n    Step 2: ...\n- Do NOT restart the numbering; do NOT repeat the step numbers. Do NOT repeat advice in multiple steps.\n- In the steps, focus on tools, materials needed, and hazards that may be encountered (for example: \u201cUse an adjustable wrench to loosen\u2026\u201d, \u201cWear gloves and be careful of sharp edges\u2026\u201d, \"Pipe tape and plumbers putty...\").\n- Focus ONLY on the current repair topic. Do NOT introduce other projects or off-topic advice.\n- Stay grounded in the evidence. Avoid specific product brands, exact dimensions, or building-code requirements that are not supported by the passages.\n- Avoid repeating the same sentence or phrase.\n- Avoid using markdown headings or section titles such as \u201cOverview\u201d, \u201cStep-by-Step Guide\u201d, or \u201cFinal Checks\u201d.\n- Avoid talking about \u201cevidence\u201d, \u201cpassages\u201d, or yourself. Just write the overview paragraph and all of the numbered steps.\nuser\nHere is an evidence bundle about ONE home repair problem.\n\nUser issue description:\nThe leak is coming from the handle.\n\nEach item below is a passage from a manual or a trusted web article about the same project. Use them together to write a detailed repair guide that covers the entire project from preparation to final checks.\n\nEVIDENCE PASSAGES:\nLOCAL / MANUAL EVIDENCE:\n- [rag] Faucets A leaky faucet is the most common home  plumbing problem. Most faucet problems are  easy to fix, and you can save time and money  by fixing them yourself. Leaks generally occur  when washers, O-rings, or seals inside the  faucet become dirty or worn. Fixing most  leaks is a matter of cleaning or replacing one  of these parts.  It\u2019s important to fix a leak as soon as pos\u00ac  sible. Although t\n- [rag] Faucets  Ball Faucets  Ball faucets have a single handle and can be  identified by a hollow metal or plastic ball  inside the faucet body. This rotating ball con\u00ac  trols the temperature and flow of water into  the faucet. Many ball-type faucets have a  rounded cap with knurled edges located under  the handle.  If a faucet with this type of cap leaks from  the spout, try tightening the cap with cha\n- [rag] nd  test  the  faucet.  This  simple  fix  usually  cures  the  leak.  Cleaning  a  faucet  aerator  WHAT  YOU'LL  NEED  Groove-joint  pliers  wrapped  with  tape  (if  needed)  Old  toothbrush  vinegar  Phillips  screwdriver  Replacement  parts  as  needed  ILow   water  pressure  at  a kitchen  spout  can  often  be  reme- died by  removing  the  aerator  and  cleaning  it.  Unscrew  the  aerato\nassistant\nRepair Guide for Leaky Faucet\n\nStep 1: Preparation\n- Turn off the water supply to the faucet. Use a wrench to loosen the handle and remove it.\n- Clean the faucet body and spout with a rag and vinegar. Rinse with water and dry with a towel.\n- Check for any debris or buildup in the faucet body or spout.\n- If the leak is coming from the handle, remove the handle and check for any loose parts or worn O-rings.\n- If the leak is coming from the spout, remove the spout and check for any loose parts or worn O-rings.\n\nStep 2: Cleaning and Replacing Parts\n- Clean the faucet body and spout with a rag and vinegar. Rinse with water and dry with a towel.\n- Check for any debris or buildup in the faucet body or spout.\n- If the leak is coming from the handle, remove the handle and check for any loose parts or worn O-rings.\n- If the leak is coming from the spout, remove the spout and check for any loose parts or worn O-rings.\n- If the leak is coming from the O-rings, replace them with new ones.\n- If the leak is coming from the handle, replace the handle with a new one.\n- If the leak is coming from the spout, replace the spout with a new one.\n\nStep 3: Reinstalling the Faucet\n- Reinstall the faucet handle and spout.\n- Tighten the handle and spout with a wrench.\n- Turn on the water supply to the faucet.\n- Check for any leaks or drips.\n\nStep 4: Final Checks\n- Check the water pressure at the kitchen spout.\n- Check for any leaks or drips.\n- If the leak is still present, repeat the cleaning and replacement steps.\n- If the leak is still present, replace the faucet with a new one.\n\nStep 5: Conclusion\n- Make sure the faucet is securely installed and the water pressure is adequate.\n- Check for any leaks or drips.\n- If the leak is still present, repeat the cleaning and replacement steps.\n- If the leak is still present, replace the faucet with a new one.\n- Turn on the water supply to the faucet.\n- Check for any leaks or drips.\n- If the leak is still present, repeat the cleaning and replacement steps.\n- If the leak is still present, replace the faucet with a new one.\n- Turn on the water supply to the"
+}

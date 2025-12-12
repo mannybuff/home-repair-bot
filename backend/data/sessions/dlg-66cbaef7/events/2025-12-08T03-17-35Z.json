@@ -1,0 +1,33 @@
+{
+  "timestamp_utc": "2025-12-08T03-17-35Z",
+  "dialog_id": "dlg-66cbaef7",
+  "query": {
+    "text": "I have turned off the water supply and cleaned the aerator. What is the next step?",
+    "has_image": false,
+    "caption": null
+  },
+  "notes": {
+    "mode": "next_step",
+    "counts": {
+      "fused": 0
+    },
+    "timings_ms": {}
+  },
+  "warnings": [],
+  "counts": {
+    "fused": 0
+  },
+  "source_counts": {
+    "image": 0,
+    "text": 0,
+    "web": 0,
+    "total": 0
+  },
+  "timings_ms": {},
+  "answer": "Turn on the water supply and check for leaks.\n\nFollow-up question: Are there any visible signs of a leak?",
+  "evidence": [],
+  "results": [],
+  "blocked": false,
+  "requires_ack": false,
+  "ack_stage": 0
+}

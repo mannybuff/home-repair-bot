@@ -1,0 +1,309 @@
+{
+  "generated_at": "2025-11-09T20:27:40Z",
+  "dialogs": {
+    "dlg-intent-001": {
+      "dialog_id": "dlg-intent-001",
+      "created_at": "2025-11-09T18-57-51.769",
+      "updated_at": "2025-11-09T18-57-51.769",
+      "num_events": 2,
+      "last_answer_preview": "Emergency detected! Please dial 911 or contact local/regional emergency services immediately!",
+      "last_ack_stage": null,
+      "hazards": [
+        "gas"
+      ],
+      "top_keywords": [
+        "gas",
+        "emergency",
+        "strong",
+        "odor",
+        "water",
+        "heater",
+        "possibly",
+        "leak",
+        "detected",
+        "please"
+      ]
+    },
+    "dlg-safe-001": {
+      "dialog_id": "dlg-safe-001",
+      "created_at": "2025-11-09T17-50-54.595",
+      "updated_at": "2025-11-09T17-50-54.595",
+      "num_events": 2,
+      "last_answer_preview": "Query: I smell a rotten egg odor near the water heater. Could it be a natural gas leak?. I found 12 relevant items (0 image, 6 text, 6 web). Start by inspecting the affected area closely and documenti",
+      "last_ack_stage": null,
+      "hazards": [
+        "gas"
+      ],
+      "top_keywords": [
+        "smell",
+        "rotten",
+        "egg",
+        "odor",
+        "near",
+        "water",
+        "heater",
+        "natural",
+        "gas",
+        "leak"
+      ]
+    },
+    "dlg-web-001": {
+      "dialog_id": "dlg-web-001",
+      "created_at": "2025-11-09T06-29-39.548",
+      "updated_at": "2025-11-09T06-29-39.548",
+      "num_events": 2,
+      "last_answer_preview": null,
+      "last_ack_stage": null,
+      "hazards": [],
+      "top_keywords": [
+        "repair",
+        "drywall",
+        "corner",
+        "bead",
+        "crack"
+      ]
+    },
+    "dlg-safe-004": {
+      "dialog_id": "dlg-safe-004",
+      "created_at": "2025-11-09T17-52-57.337",
+      "updated_at": "2025-11-09T17-52-57.337",
+      "num_events": 2,
+      "last_answer_preview": "Query: Home built before 1978 with peeling paint and an old popcorn ceiling—could this be asbestos or lead paint?. I found 12 relevant items (0 image, 6 text, 6 web). Start by inspecting the affected",
+      "last_ack_stage": null,
+      "hazards": [
+        "asbestos",
+        "lead"
+      ],
+      "top_keywords": [
+        "paint",
+        "home",
+        "built",
+        "peeling",
+        "old",
+        "popcorn",
+        "ceiling",
+        "asbestos",
+        "lead",
+        "query"
+      ]
+    },
+    "dlg-rank-002": {
+      "dialog_id": "dlg-rank-002",
+      "created_at": "2025-11-09T19-00-12.016",
+      "updated_at": "2025-11-09T19-00-12.016",
+      "num_events": 2,
+      "last_answer_preview": "Query: drywall corner bead repair. Photo of a wall; possible drywall seam/joint visible.. I found 24 relevant items (0 image, 6 text, 6 web). Start by inspecting the affected area closely and document",
+      "last_ack_stage": null,
+      "hazards": [],
+      "top_keywords": [
+        "page",
+        "home",
+        "manny-buff",
+        "projects",
+        "vision-rag-api",
+        "data",
+        "images",
+        "d9079cbdeb5bb6dd",
+        "jpg",
+        "drywall"
+      ]
+    },
+    "dlg-safe-003": {
+      "dialog_id": "dlg-safe-003",
+      "created_at": "2025-11-09T17-52-17.399",
+      "updated_at": "2025-11-09T17-52-17.399",
+      "num_events": 2,
+      "last_answer_preview": "Query: I found black mold and a musty odor after water damage in the drywall.. I found 12 relevant items (0 image, 6 text, 6 web). Start by inspecting the affected area closely and documenting with ph",
+      "last_ack_stage": null,
+      "hazards": [
+        "mold"
+      ],
+      "top_keywords": [
+        "found",
+        "black",
+        "mold",
+        "musty",
+        "odor",
+        "water",
+        "damage",
+        "drywall",
+        "query",
+        "relevant"
+      ]
+    },
+    "dlg-intent-002": {
+      "dialog_id": "dlg-intent-002",
+      "created_at": "2025-11-09T18-58-19.272",
+      "updated_at": "2025-11-09T18-58-46.868",
+      "num_events": 3,
+      "last_answer_preview": "As an AI repair assistant, I am not qualified to help you with this repair. Please contact a professional. If you continue to seek my help to work on this repair, you are agreeing not to hold Rep.AI.r",
+      "last_ack_stage": null,
+      "hazards": [],
+      "top_keywords": [
+        "repair",
+        "help",
+        "replace",
+        "damaged",
+        "outlet",
+        "near",
+        "sink",
+        "assistant",
+        "qualified",
+        "please"
+      ]
+    },
+    "dlg-text-001": {
+      "dialog_id": "dlg-text-001",
+      "created_at": "2025-11-08T23-48-13.471",
+      "updated_at": "2025-11-09T03-25-25.651",
+      "num_events": 9,
+      "last_answer_preview": null,
+      "last_ack_stage": null,
+      "hazards": [],
+      "top_keywords": [
+        "how",
+        "fix",
+        "drywall",
+        "corner",
+        "crack"
+      ]
+    },
+    "dlg-web-002": {
+      "dialog_id": "dlg-web-002",
+      "created_at": "2025-11-09T15-38-13.393",
+      "updated_at": "2025-11-09T15-38-13.393",
+      "num_events": 2,
+      "last_answer_preview": null,
+      "last_ack_stage": null,
+      "hazards": [],
+      "top_keywords": [
+        "repair",
+        "drywall",
+        "corner",
+        "bead",
+        "crack"
+      ]
+    },
+    "dlg-ev-002": {
+      "dialog_id": "dlg-ev-002",
+      "created_at": "2025-11-09T19-51-51.250",
+      "updated_at": "2025-11-09T19-51-51.250",
+      "num_events": 2,
+      "last_answer_preview": "Query: drywall corner bead repair. Photo of a wall; possible drywall seam/joint visible.. I found 24 relevant items (0 image, 6 text, 6 web). Start by inspecting the affected area closely and document",
+      "last_ack_stage": null,
+      "hazards": [],
+      "top_keywords": [
+        "page",
+        "drywall",
+        "corner",
+        "bead",
+        "repair",
+        "joint",
+        "home",
+        "manny-buff",
+        "projects",
+        "vision-rag-api"
+      ]
+    },
+    "dlg-warm-001": {
+      "dialog_id": "dlg-warm-001",
+      "created_at": "2025-11-08T22-52-08.272",
+      "updated_at": "2025-11-09T03-11-20.748",
+      "num_events": 11,
+      "last_answer_preview": null,
+      "last_ack_stage": null,
+      "hazards": [],
+      "top_keywords": [
+        "how",
+        "fix",
+        "drywall",
+        "corner",
+        "crack"
+      ]
+    },
+    "dlg-safe-002": {
+      "dialog_id": "dlg-safe-002",
+      "created_at": "2025-11-09T17-51-37.723",
+      "updated_at": "2025-11-09T17-51-37.723",
+      "num_events": 2,
+      "last_answer_preview": "Query: My outlet is sparking and smells like something burning. I found 12 relevant items (0 image, 6 text, 6 web). Start by inspecting the affected area closely and documenting with photos. Gather ba",
+      "last_ack_stage": null,
+      "hazards": [],
+      "top_keywords": [
+        "outlet",
+        "sparking",
+        "smells",
+        "like",
+        "something",
+        "burning",
+        "query",
+        "found",
+        "relevant",
+        "items"
+      ]
+    },
+    "dlg-rank-001": {
+      "dialog_id": "dlg-rank-001",
+      "created_at": "2025-11-09T18-59-30.599",
+      "updated_at": "2025-11-09T18-59-30.599",
+      "num_events": 2,
+      "last_answer_preview": "Query: drywall corner bead repair. Photo of a wall; possible drywall seam/joint visible.. I found 24 relevant items (0 image, 6 text, 6 web). Start by inspecting the affected area closely and document",
+      "last_ack_stage": null,
+      "hazards": [],
+      "top_keywords": [
+        "page",
+        "home",
+        "manny-buff",
+        "projects",
+        "vision-rag-api",
+        "data",
+        "images",
+        "d9079cbdeb5bb6dd",
+        "jpg",
+        "drywall"
+      ]
+    },
+    "dlg-ev-001": {
+      "dialog_id": "dlg-ev-001",
+      "created_at": "2025-11-09T19-51-11.765",
+      "updated_at": "2025-11-09T19-51-11.765",
+      "num_events": 2,
+      "last_answer_preview": "Query: drywall corner bead repair. I found 12 relevant items (0 image, 6 text, 6 web). Start by inspecting the affected area closely and documenting with photos. Gather basic tools (utility knife, joi",
+      "last_ack_stage": null,
+      "hazards": [],
+      "top_keywords": [
+        "corner",
+        "bead",
+        "drywall",
+        "repair",
+        "family",
+        "query",
+        "found",
+        "relevant",
+        "items",
+        "image"
+      ]
+    },
+    "dlg-env-001": {
+      "dialog_id": "dlg-env-001",
+      "created_at": "2025-11-09T17-16-45.400",
+      "updated_at": "2025-11-09T17-16-45.400",
+      "num_events": 2,
+      "last_answer_preview": "Query: How do I fix a drywall corner crack?. I found 12 relevant items (0 image, 6 text, 6 web). Start by inspecting the affected area closely and documenting with photos. Gather basic tools (utility",
+      "last_ack_stage": null,
+      "hazards": [],
+      "top_keywords": [
+        "how",
+        "fix",
+        "drywall",
+        "corner",
+        "crack",
+        "query",
+        "found",
+        "relevant",
+        "items",
+        "image"
+      ]
+    }
+  }
+}
